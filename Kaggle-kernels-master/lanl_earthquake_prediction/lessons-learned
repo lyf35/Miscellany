@@ -1,0 +1,4 @@
+1. Trust local CV! Do not trust public leaderboard! Public leaderboard can be extremely misleading.
+2. When begin doing a competition, first construct a pipeline include feature engineering, model parameter searching, model training and model prediction.
+3. When doing cross validation, remember the data in training set and validation set can not be same or very similar, e.g. in this competition, we should divide training and validation set by earthquake segments, and shouldn't divide randomly.
+4. Remember to delete the features with high coefficient, or it will affect the metric of many models.
